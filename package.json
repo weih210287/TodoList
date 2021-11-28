@@ -1,5 +1,5 @@
 {
-  "name": "hw1",
+  "name": "TodoList",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -14,6 +14,8 @@
     "webpack": "4.44.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-page -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
