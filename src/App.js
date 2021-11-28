@@ -6,6 +6,7 @@ import { Button, FilterButtons } from "./Button.js";
 
 const Background = styled.div`
   position: absolute;
+  height: 100vh;
   top: 0;
   right: 0;
   bottom: 0;
